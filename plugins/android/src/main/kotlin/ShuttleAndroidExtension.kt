@@ -24,7 +24,7 @@ open class ShuttleAndroidExtension @Inject constructor(private val project: Proj
     fun useCompose() {
         project.extensions.configure<TestedExtension> {
             buildFeatures.compose = true
-            composeOptions.kotlinCompilerExtensionVersion = "1.1.0"
+            composeOptions.kotlinCompilerExtensionVersion = "1.2.0-dev-k1.7.0-53370d83bb1"
         }
     }
 
